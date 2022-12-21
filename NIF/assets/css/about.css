@@ -1,0 +1,447 @@
+
+.sub-banner.about{
+  width: 1100px;
+}
+.about .overlay{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #000000 77%);
+}
+.vision-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vision-body {
+  position: relative;
+  margin: 10px;
+}
+
+.vision-row img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.vision-content {
+  position: absolute;
+  left: 50%;
+  bottom: 48px;
+  width: 90%;
+  transform: translateX(-50%);
+}
+
+.vision-content h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.vision-content p {
+  color: #fff;
+}
+
+/* Founders */
+.founders {
+  background: #f6f7f8;
+  padding-top: 80px !important;
+}
+
+.directors {
+  background: #fee9d9;
+  padding-top: 80px !important;
+}
+
+.admin-row {
+  display: flex;
+}
+
+.admin-left {
+  width: 35%;
+  border-right: 1px solid #000;
+}
+
+.admin-left h2 {
+  padding-right: 32px;
+  text-align: left;
+}
+
+.admin-right {
+  width: 60%;
+  padding-left: 32px;
+}
+
+.admin-head {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: flex-end;
+}
+
+.admin-head img {
+  width: 268px;
+  object-fit: contain;
+  margin-right: 23px;
+}
+
+.admin-head h3 {
+  margin-bottom: 8px;
+}
+
+.admin-head h4 {
+  margin-bottom: 0;
+}
+
+.admin-right p {
+  font-size: 1rem;
+  color: rgba(40, 61, 59, 0.7);
+  margin-bottom: 24px;
+}
+
+.admin-right .slick-dots {
+  left: 32px;
+  width: initial;
+  bottom: -30px;
+}
+
+.admin-right .slick-dots li:first-child {
+  margin-right: 16px;
+}
+
+.team-card {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.team-members h2 {
+  margin-bottom: 40px;
+}
+
+.team-members img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.team-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 12px;
+}
+
+.team-content h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.team-content p {
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  font-family: Cardo;
+}
+
+/* Join Team */
+
+.join-team h2,
+.join-team p {
+  color: #2a2a2a;
+}
+
+.join-team h2 {
+  margin-bottom: 24px;
+}
+
+.join-team p {
+  font-size: 1.125rem;
+  opacity: 0.7;
+}
+.quality img{
+  border-radius: 12px;
+}
+.quality .buy{
+  margin: 20px 10px;
+}
+.quality .buy-left{
+padding: 20px;
+background-color: #fff;
+}
+.journey {
+  background: #fee9d9;
+}
+
+.journey-wrapper {
+  position: relative;
+}
+
+.journey img {
+  width: 100%;
+  margin-top: 126px;
+  margin-bottom: 126px;
+  object-fit: contain;
+}
+
+.journey-content {
+  position: absolute;
+  width: 16%;
+}
+
+.one {
+  bottom: 8%;
+  left: 10%;
+}
+
+.two {
+  top: 8%;
+  left: 26.5%;
+}
+
+.three {
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.four {
+  top: 8%;
+  right: 26.5%;
+}
+
+.five {
+  bottom: 8%;
+  right: 10%;
+}
+
+.journey-content h3 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.journey-content p {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: rgba(40, 61, 59, 0.7);
+  text-align: center;
+  font-family: Josefin sans;
+}
+
+@media only screen and (max-width: 1200px) {
+  .journey-content {
+    width: 20%;
+  }
+   .sub-banner.about{
+    width: 1000px;
+  }
+  
+}
+
+@media only screen and (max-width: 992px) {
+  .vision-row img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .admin-head {
+    display: block;
+  }
+
+  .admin-head img {
+    margin-bottom: 16px;
+  }
+  .journey img {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .sub-banner.about{
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sub-banner.about{
+    width: 100%;
+  }
+  .quality img{
+    border-radius: 0px;
+  }
+  .quality{
+    padding: 0px;
+  }
+
+  .vision-content h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 48px;
+  }
+
+  .vision-content p {
+    font-size: 14px;
+  }
+
+  .vision-row img {
+    height: 326px;
+    object-fit: cover;
+  }
+
+  .vision-content {
+    bottom: 32px;
+  }
+
+  .founders,
+  .directors {
+    padding-top: 48px !important;
+  }
+
+  .admin-head {
+    display: block;
+  }
+
+  .admin-left h2 {
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .admin-row {
+    display: block;
+  }
+
+  .admin-left,
+  .admin-right {
+    width: 100%;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .admin-head img {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .admin-right .slick-dots {
+    left: initial;
+    width: 100%;
+    bottom: -25px;
+  }
+
+  .admin-right .slick-dots li:first-child {
+    margin-right: 12px;
+  }
+
+  .team-content h3 {
+    font-size: 18px;
+  }
+
+  .team-content p {
+    font-size: 14px;
+  }
+
+  .join-team h2 {
+    margin-bottom: 8px;
+  }
+
+  .join-team p {
+    font-size: 14px;
+  }
+  .journey h2 {
+    font-size: 28px;
+    text-align: left !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 14px;
+    width: 90%;
+  }
+
+  .journey img {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .journey-flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .journey-left,
+  .journey-right {
+    width: 48%;
+  }
+
+  .journey-left {
+    position: relative;
+  }
+
+  .journey-left h3 {
+    font-size: 20px;
+    position: absolute;
+  }
+
+  .journey-left h3:nth-child(2) {
+    top: 2%;
+    right: 11%;
+  }
+
+  .journey-left h3:nth-child(3) {
+    top: 21.5%;
+    left: 11%;
+  }
+
+  .journey-left h3:nth-child(4) {
+    top: 42%;
+    right: 11%;
+  }
+
+  .journey-left h3:nth-child(5) {
+    top: 61.5%;
+    left: 11%;
+  }
+
+  .journey-left h3:nth-child(6) {
+    top: 82%;
+    right: 11%;
+  }
+
+  .journey-right {
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+  }
+
+  .journey-right p {
+    font-size: 10px;
+    line-height: 18px;
+    color: rgba(40, 61, 59, 0.7);
+    position: absolute;
+  }
+
+  .journey-right p:nth-child(1) {
+    top: 4%;
+  }
+
+  .journey-right p:nth-child(2) {
+    top: 23%;
+  }
+
+  .journey-right p:nth-child(3) {
+    top: 42.5%;
+  }
+
+  .journey-right p:nth-child(4) {
+    top: 62%;
+  }
+
+  .journey-right p:nth-child(5) {
+    top: 82%;
+  }
+  .quality .buy{
+    margin: 20px 0px;
+  }
+  .quality .buy-left{
+    padding: 20px 16px;
+    padding-bottom: 0px;
+  }
+  .quality.top{
+    margin-top: 60px;
+  }
+}
