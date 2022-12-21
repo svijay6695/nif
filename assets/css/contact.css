@@ -1,0 +1,152 @@
+.contact-body {
+  margin-top: 36px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-reach {
+  width: 48%;
+}
+
+.contact-reach h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e7e7e7;
+  color: #111214;
+}
+
+.contact-reach .contact-info {
+  padding-top: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.contact-reach .contact-info div {
+  display: flex;
+}
+.contact-reach .contact-info div div {
+  padding: 14px;
+  background: #854b3c;
+  border-radius: 4px;
+  margin-right: 24px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+
+.contact-reach .contact-info img {
+  width: 19px;
+  object-fit: contain;
+}
+
+.contact-map {
+  padding-top: 16px;
+}
+
+.contact-map img {
+  width: 100%;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.contact-form {
+  background: #f6f7f8;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 16px 30px rgba(42, 42, 42, 0.15);
+  border-radius: 8px;
+  padding: 32px;
+  border-bottom: 8px solid #854b3c;
+  width: 48%;
+}
+.contact-form h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #2a2a2a;
+  padding-bottom: 16px;
+}
+.custom-input {
+  padding-bottom: 24px;
+}
+.custom-input label {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: "Open Sans";
+  opacity: 0.7;
+  color: #7d7d7d;
+  padding-bottom: 4px;
+}
+.custom-input input {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 11px 16px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+}
+.custom-input textarea {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 11px 16px;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+  height: 128px;
+}
+.custom-container {
+  display: flex;
+  justify-content: space-between;
+}
+.custom-container .custom-input {
+  width: 49%;
+}
+.contact-form .btn-primary {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #854b3c;
+  border-radius: 12px;
+}
+
+.contact-info p {
+  font-weight: 600;
+  color: #505052;
+  margin-top: 7px;
+}
+@media only screen and (max-width: 767px) {
+  .contact-reach,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-body {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    flex-direction: column-reverse;
+  }
+
+  .contact-reach h2 {
+    font-size: 36px;
+  }
+  .custom-container .custom-input {
+    width: 100%;
+  }
+  .custom-container {
+    flex-direction: column;
+  }
+  .contact-form h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .contact-form {
+    padding: 16px;
+    margin-bottom: 60px;
+  }
+}
